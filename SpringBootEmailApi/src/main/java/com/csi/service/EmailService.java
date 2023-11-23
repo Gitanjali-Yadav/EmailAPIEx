@@ -36,7 +36,7 @@ public class EmailService {
 
         MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage, true);
 
-        mimeMessageHelper.setFrom("ygeetanjali449@gmail.com");
+        mimeMessageHelper.setFrom("your_email");
         mimeMessageHelper.setTo(emailModel.getToEmail());
         mimeMessageHelper.setCc(emailModel.getCcEmail());
 
