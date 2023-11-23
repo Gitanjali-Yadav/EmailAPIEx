@@ -20,9 +20,8 @@ public class EmailController {
         emailService.sendEmail(emailModel);
         return ResponseEntity.ok("Email Sent Successfully !!");
     }
-/*
     @GetMapping("/hello")
     public String sayHello() {
         return "WELCOME";
-    }*/
+    }
 }
